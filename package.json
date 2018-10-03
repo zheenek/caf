@@ -1,0 +1,14 @@
+{
+  "name": "caf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass scss/main.scss css/main.css -w"
+  },
+  "author": "Eugene",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}

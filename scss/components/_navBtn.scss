@@ -1,0 +1,26 @@
+.btn {
+    text-decoration: none;
+    padding: 1.7vw 0;
+    font-size: 1.2vw;
+    letter-spacing: .02vw;
+    color: inherit;
+    font-weight: 300;
+    box-shadow: $shadow-light;
+    
+    &--active {
+        font-weight: $bold;
+        color: $accent-blue;
+        border-bottom: .3vw solid $accent-blue;
+    }
+}
+
+.item {
+    text-align: center;
+    padding: 1.7vw 0;
+    width: 15vw;
+    background-color: $white;
+    
+    &--small {
+        width: 7vw;
+    }
+}

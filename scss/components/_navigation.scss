@@ -1,0 +1,29 @@
+.navi {
+    width: 100%;
+    margin: 1vw 0 1.5vw 0;
+    
+    &__content {
+        width: $main-width;
+        margin: 0 auto;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        justify-content: space-between;
+        
+        &__modes {
+            list-style: none;
+            &__item {
+                display: inline-block;
+            }
+        }
+        
+        &__btns {
+            list-style: none;
+            &__item {
+                display: inline-block;
+            }
+        }
+    }
+}
